@@ -7,7 +7,7 @@ def turn_count(board)
       counter = counter + 1
     end #if 
   end #board.each
-  return counter
+  return counter #we want to return the counter, not the token value
 end # turn_count
 
 def current_player(board)
